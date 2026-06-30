@@ -149,11 +149,7 @@ Este proyecto implementa un **pipeline ETL completo** para la extracción, proce
 ## Instalación y Configuración
 
 ### 1\. Clonar o descargar el proyecto
-
-```bash
-cd pipeline-cetes-banorte
-```
-
+git clone 
 ### 2\. Crear entorno virtual (recomendado)
 
 ```bash
