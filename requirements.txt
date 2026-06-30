@@ -1,0 +1,25 @@
+# Requirements - Pipeline CETES AFORE XXI Banorte
+# Prueba Técnica Analista de Data Science
+
+# Extracción API
+requests>=2.31.0
+
+# Procesamiento de datos
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Base de datos
+# sqlite3 (incluido en Python estándar)
+
+# Modelos predictivos
+statsmodels>=0.14.0
+prophet>=1.1.5
+xgboost>=2.0.0
+scikit-learn>=1.3.0
+
+# Visualización (para scripts opcionales)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter (opcional, para análisis exploratorio)
+# jupyter>=1.0.0

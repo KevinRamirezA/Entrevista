@@ -1,0 +1,20 @@
+2026-06-30 10:53:35,137 | INFO     | SIE.Extraccion | __init__ | SIEApiClient inicializado y token validado.
+2026-06-30 10:53:35,138 | INFO     | SIE.Extraccion | obtener_ultimos_12_meses | Período de consulta: 2025-06-29 → 2026-06-30
+2026-06-30 10:53:36,299 | INFO     | SIE.Extraccion | obtener_series_periodo | Batch 1: 208 registros extraídos
+2026-06-30 10:53:36,341 | INFO     | SIE.Extraccion | _log_resumen | Total registros: 208 | N/E: 0.0%
+2026-06-30 10:53:36,365 | INFO     | SIE.Extraccion | _log_resumen |   CETES  28D → 52 registros | 0.0% N/E
+2026-06-30 10:53:36,366 | INFO     | SIE.Extraccion | _log_resumen |   CETES  91D → 52 registros | 0.0% N/E
+2026-06-30 10:53:36,368 | INFO     | SIE.Extraccion | _log_resumen |   CETES 182D → 52 registros | 0.0% N/E
+2026-06-30 10:53:36,369 | INFO     | SIE.Extraccion | _log_resumen |   CETES 364D → 26 registros | 0.0% N/E
+2026-06-30 10:53:36,370 | INFO     | SIE.Extraccion | _log_resumen |   CETES 728D → 26 registros | 0.0% N/E
+2026-06-30 10:53:36,382 | INFO     | SIE.Extraccion | main | Guardado: datos_cetes_raw.csv (208 registros)
+2026-06-30 10:53:53,367 | INFO     | SIE.DataMining | Datos cargados: 208 registros desde cetes_database.db
+2026-06-30 10:53:53,387 | INFO     | SIE.DataMining | Valores N/E imputados (ffill/bfill): 0
+2026-06-30 10:53:53,448 | INFO     | SIE.DataMining | Outliers detectados (IQR ×1.5): 1
+2026-06-30 10:53:53,493 | INFO     | SIE.DataMining | Vista limpia exportada: cetes_clean.csv (208 filas)
+2026-06-30 10:53:53,528 | INFO     | SIE.DataMining | Vista wide exportada: cetes_wide.csv
+2026-06-30 10:54:19,090 | INFO     | SIE.Predictor | Datos extraídos: 261 semanas (2021-07-01 → 2026-06-25)
+2026-06-30 10:54:20,487 | INFO     | cmdstanpy | Chain [1] start processing
+2026-06-30 10:54:21,246 | INFO     | cmdstanpy | Chain [1] done processing
+2026-06-30 10:54:21,559 | INFO     | cmdstanpy | Chain [1] start processing
+2026-06-30 10:54:21,813 | INFO     | cmdstanpy | Chain [1] done processing
