@@ -53,21 +53,21 @@ try:
     STATSMODELS_AVAILABLE = True
 except ImportError:
     STATSMODELS_AVAILABLE = False
-    print("⚠️  pip install statsmodels")
+    print("pip install statsmodels")
 
 try:
     from prophet import Prophet
     PROPHET_AVAILABLE = True
 except ImportError:
     PROPHET_AVAILABLE = False
-    print("⚠️  pip install prophet")
+    print("pip install prophet")
 
 try:
     import xgboost as xgb
     XGBOOST_AVAILABLE = True
 except ImportError:
     XGBOOST_AVAILABLE = False
-    print("⚠️  pip install xgboost")
+    print(" pip install xgboost")
 
 from sklearn.model_selection import TimeSeriesSplit
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
@@ -383,7 +383,7 @@ def main():
     print("="*60)
 
     # 1. EXTRAER DATOS DE LA API
-    print("\n📡 Extrayendo CETES 28D de Banxico...")
+    print("\n Extrayendo CETES 28D de Banxico...")
     client = SIEApiClient(TOKEN)
 
     # Últimos 5 años de datos (suficiente para modelos robustos)
